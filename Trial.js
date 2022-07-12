@@ -9,8 +9,8 @@ console.log("The area of all 3 circles are " + circle.rad1 + ", " + circle.rad2 
 var area = Math.PI() * circle.rad1 * circle.rad1;
 
 var input = require("readline-sync");
-var rectangles = 
+var rectangles = new Object();
 {
-    rectangle1: input.question("Input proper")
-    rectangle2: 
+    rectangle1: input.question("Input proper");
+    rectangle2: input.question("");
 }
